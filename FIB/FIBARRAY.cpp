@@ -24,7 +24,7 @@ int main() {
     for (int i = 0; i <= n; ++i) {
         clock_t iter_st_time = clock();
         unsigned long long result = 0;
-        for (int j = 0; j < 1; ++j) {
+        for (int j = 0; j < 1000000; ++j) {
             result = fibARRAY(i);
         }
 
